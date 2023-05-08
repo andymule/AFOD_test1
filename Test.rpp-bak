@@ -1,9 +1,9 @@
-<REAPER_PROJECT 0.1 "6.79/win64" 1683501642
+<REAPER_PROJECT 0.1 "6.79/win64" 1683510639
   <NOTES 0 2
   >
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
-  AUTOXFADE 1
+  AUTOXFADE 129
   ENVATTACH 3
   POOLEDENVATTACH 0
   MIXERUIFLAGS 11 48
@@ -16,7 +16,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0.5
+  CURSOR 0
   ZOOM 100 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 2 0
-  SELECTION2 2 0
+  SELECTION 4 0
+  SELECTION2 4 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -72,7 +72,7 @@
   MASTER_VOLUME 1 0 -1 -1 1
   MASTER_PANMODE 3
   MASTER_FX 1
-  MASTER_SEL 1
+  MASTER_SEL 0
   <MASTERPLAYSPEEDENV
     EGUID {93D417A5-82DE-4A2B-BA0C-34EEDC82A970}
     ACT 0 -1
@@ -83,7 +83,7 @@
   >
   <TEMPOENVEX
     EGUID {8298DD2F-E615-4F49-85DE-974EE249AF42}
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -104,7 +104,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
-    REC 1 5088 1 7 0 0 0 0
+    REC 0 5088 1 7 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -148,7 +148,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 2
+      LENGTH 4
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -209,7 +209,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
-    REC 1 5088 1 0 0 0 0 0
+    REC 0 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -296,13 +296,13 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 2
+      LENGTH 4
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {5525F31A-406E-44AF-9D8D-E055822B1709}
       IID 2
       NAME "02-Drum8 2-MIDI"
@@ -361,6 +361,72 @@
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 615 230 1911 988 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {1C06C89D-0EA1-4F79-B209-F7A8AA24815E}
+    NAME evn_fc_disunity_origin_01
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {1C06C89D-0EA1-4F79-B209-F7A8AA24815E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 485 399 716 182
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS delay/time_adjustment ""
+        0 0 -120 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {81EA70DA-A9F4-4E84-B8D1-2D270F6805BE}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS loser/TimeDelayer ""
+        0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3DF06CB4-76E6-46DF-B8EC-B63B727587F7}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {46C074C7-5D5F-4049-9792-9D7BC31251DF}
+      IID 3
+      NAME evn_fc_disunity_origin_01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {16F367C8-BD5E-4C2B-B49A-469BE882F6EA}
+      <SOURCE WAVE
+        FILE "evn_fc_disunity_origin_01.wav"
       >
     >
   >
